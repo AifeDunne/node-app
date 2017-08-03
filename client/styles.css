@@ -1,0 +1,64 @@
+body { background-color: #f64130; font-family:Open Sans;}
+h1 { color:#FFF; font-family:Open Sans; text-align:center; font-size:42px;}
+textarea { border:none; }
+#box-holdr { height:100%; width:100%; display:flex; justify-content:center; }
+#bigbawx { position:relative; width:65%; height:525px; background-color:#FFF; border-radius:6px; }
+.app-box1 { position:absolute; top:-20px; left:-20px; width:350px; height:260px; background:#FFF; z-index:5; box-shadow: 3px 3px 17px 0px rgba(0,0,0,0.75); }
+.app-box1 textarea { color:#f99200; font-family:Open Sans; font-size:26px; display:block; margin:auto; text-align:center; font-weight:bold; height:45px; margin-top:20px; }
+.app-box1 .div-img { display:block !important; }
+
+.app-box2 { position:relative; float:right; width:100%; clear:both; margin-top:45px; }
+.app-box3 { position:relative; float:right; width:100%; clear:both; margin-bottom:120px; }
+.app-box2 textarea { color:#f99200; font-family:Open Sans; font-size:26px; float:left; margin-left:400px; width:60%; font-weight:bold; height: 60px;}
+.app-box3 textarea { float:left; margin-left:400px; font-family:Open Sans; width:60%; font-size:16px; font-weight:bold; }
+
+.app-box4 { position:relative; float:left;  width:30%; padding-bottom:10px; padding-top:35px; background-color:#ececec; padding-left:10px; padding-right:10px; margin-right:1.5%; margin-left:1%; border-radius:3px;}
+.app-box5 { position:relative; float:left; width:30%; padding-bottom:10px; padding-top:35px; background-color:#ececec; padding-left:10px; padding-right:10px; margin-right:1.5%; border-radius:3px;}
+.app-box6 { position:relative; float:left; width:30%; padding-bottom:10px; padding-top:35px; background-color:#ececec; padding-left:10px; padding-right:10px; border-radius:3px;}
+.app-box4 textarea, .app-box5 textarea, .app-box6 textarea { color:#f99200; font-family:Open Sans; font-size:20px; font-weight:bold; background-color:#ececec; text-align:center; height:35px;  }
+
+.app-box7 { position:relative; float:left;  width:30%; background-color:#ececec; margin-top:-2px; padding-bottom:120px; padding-left:10px; padding-right:10px; margin-right:1.5%; margin-left:1%; border-radius:3px; }
+.app-box8 { position:relative; float:left;  width:30%; background-color:#ececec; margin-top:-2px; padding-bottom:120px; padding-left:10px; padding-right:10px; margin-right:1.5%; border-radius:3px; }
+.app-box9 { position:relative; float:left;  width:30%; background-color:#ececec; margin-top:-2px; padding-bottom:120px; padding-left:10px; padding-right:10px; border-radius:3px; }
+.app-box7 textarea, .app-box8 textarea, .app-box9 textarea { font-family:Open Sans; font-size:16px; font-weight:bold; background-color:#ececec; text-align:center; height:35px; }
+
+.app-box4 textarea, .app-box5 textarea, .app-box6 textarea, .app-box7 textarea, .app-box8 textarea, .app-box9 textarea { position:relative; display:block; margin:auto; }
+
+@media screen and (max-width: 1660px) {
+	#bigbawx { width:75%; }
+}
+@media screen and (max-width: 1500px) {
+ #bigbawx { width:80%; }
+}
+@media screen and (max-width: 1400px) {
+ #bigbawx { width:85%; }
+}
+@media screen and (max-width: 1300px) {
+ #bigbawx { width:90%; }
+ .app-box4, .app-box5, .app-box6, .app-box7, .app-box8, .app-box9 { float:left; margin-right:0; margin-left:0; width:33.333%; padding-left:0; padding-right:0; }
+}
+@media screen and (max-width: 1200px) {
+ #bigbawx { width:95%; }
+ .app-box2 textarea, .app-box3 textarea { margin-left:350px; width:50%; }
+}
+
+@media screen and (max-width: 950px) {
+	.app-box1 { position:relative; top:inherit; left:inherit; width:80%; height:260px; background:#FFF; z-index:5; display:block; margin:auto; clear:both; box-shadow:none;  }
+	.app-box2, .app-box2 textarea { display:none; }
+	.app-box3 textarea { display:block; margin:auto; width:80%; float:none; text-align:center; }
+	.app-box1 textarea, .app-box2 textarea, .app-box3 textarea, .app-box4 textarea, .app-box5 textarea, .app-box6 textarea, .app-box7 textarea, .app-box8 textarea, .app-box9 textarea { width:100%; text-align:center; }
+	.app-box3 { width:94%; padding-left:3%; padding-right:3%; }
+	}
+	
+@media screen and (max-width: 490px) {
+	  #bigbawx { height: 925px; margin-bottom:20px; }
+	 .app-box3 textarea { height:95px; }
+	  .app-box4, .app-box5, .app-box6, .app-box7, .app-box8, .app-box9 { width:100%; }
+	  .app-box7, .app-box8, .app-box9 { padding-bottom:50px; }
+	 .app-box4 { position:absolute; top:400px; left:0; }
+	 .app-box7{ position:absolute; top:480px; left:0; }
+	 .app-box5 { position:absolute; top:580px; left:0; }
+	 .app-box8{ position:absolute; top:660px; left:0; }
+	 .app-box6{ position:absolute; top:760px; left:0; }
+	 .app-box9{ position:absolute; top:840px; left:0; }
+}

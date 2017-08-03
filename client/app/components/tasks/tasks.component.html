@@ -1,0 +1,11 @@
+<div id="box-holdr">
+	<div id="bigbawx">
+    <div *ngFor="let task of tasks" class="app-box{{task.box}}">
+			<div class="div-img" style="display:none;"><img src="https://www.zenman.com/wp-content/uploads/2014/03/thumbnail-150x150.jpg" style="border-radius:50%; display:block; margin:auto; margin-top:20px;"></div>
+            <div class="{{task.contentType}}">
+			<textarea [(ngModel)]="task.boxContent"></textarea>
+			</div>
+		</div>
+	<br><br>
+	</div>
+</div>
